@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  /* color: #FAFAFC; */
+  background-color: #1A1A23;
+}
+
+@font-face {
+  font-family: "Hinglish";   /*Can be any text*/
+  src: local("SAMAN___"),
+    url("./fonts/SAMAN___.ttf") format("truetype");
+}
+
+
+/* Used in Action Button Only  */
+.button_design {
+  background: radial-gradient(
+    53.57% 53.57% at 49.82% 95.71%,
+    #a47cf3 0%,
+    #683fea 100%
+  );
+}
+
+/* For Hinding the Up Down arrow of Number Filed  */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.circle-btn {
+  @apply relative inline-flex items-center cursor-pointer rounded-full bg-gray-700 text-white px-4 py-2;
+}
+
+.arrow-down {
+  @apply w-0 h-0 border-l-4 border-r-4 border-t-4 border-white ml-2;
+}
+
+.dropdown {
+  @apply hidden absolute flex-col bg-gray-800 border border-gray-700 mt-2 text-white rounded;
+}
+
+.dropdown a {
+  @apply px-4 py-2 no-underline hover:bg-gray-700;
+}
+
+.my-custom-class{
+  color : #fafafc !important;
+  background-color: #332566 !important;
+  border: 2px solid #8349b9 !important;
+  border-radius: 25px !important;
+}
+
+.my-custom-class:hover{
+  background-color: #8349b9 !important;
+}
+
+.my-custom-class-text{
+  color : #fafafc !important;
+  font-size: 20px !important;
+  background-color: inherit !important;
+  margin-bottom: -15px !important;
+  margin-top: -15px !important;
+}
