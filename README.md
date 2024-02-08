@@ -1,15 +1,5 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
 
 ## Features
-
 <ol>
   <!-- <li>
     <a href="#getting-started">Getting Started</a>
@@ -50,12 +40,6 @@ Single Daily Investment: We maintain exclusivity and focus by accepting only one
 <br>
 <br>
 
-# Full fledged Account Abstraction
-
-```
-Sign in with your Email or social credentials, or your metamask wallet if you're old fashioned like us.
-Either way, we've got it handled ;)
-```
 
 
 
